@@ -16,6 +16,7 @@ public class MainForAssembler {
 	public static void main(String[] args) throws IOException{
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		while(true) {
+			System.out.println("회원등록기 v1");
 			System.out.println("명령어를 입력하세요:");
 			String command = reader.readLine();
 			if(command.equalsIgnoreCase("exit")) {
